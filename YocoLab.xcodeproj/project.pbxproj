@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2134DF2E26BF23910051C6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF2D26BF23910051C6BC /* AppDelegate.swift */; };
+		2134DF3026BF23910051C6BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF2F26BF23910051C6BC /* SceneDelegate.swift */; };
+		2134DF3226BF23910051C6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF3126BF23910051C6BC /* ViewController.swift */; };
+		2134DF3526BF23910051C6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2134DF3326BF23910051C6BC /* Main.storyboard */; };
+		2134DF3726BF23930051C6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2134DF3626BF23930051C6BC /* Assets.xcassets */; };
+		2134DF3A26BF23930051C6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2134DF3826BF23930051C6BC /* LaunchScreen.storyboard */; };
+		2134DF4526BF23930051C6BC /* YocoLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF4426BF23930051C6BC /* YocoLabTests.swift */; };
+		2134DF5026BF23930051C6BC /* YocoLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF4F26BF23930051C6BC /* YocoLabUITests.swift */; };
+		2134DF6726BF24200051C6BC /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF5E26BF241F0051C6BC /* KeyCell.swift */; };
+		2134DF6A26BF24200051C6BC /* CashRegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF6326BF241F0051C6BC /* CashRegisterViewModel.swift */; };
+		2134DF6B26BF24200051C6BC /* UIColor+Yoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF6526BF241F0051C6BC /* UIColor+Yoco.swift */; };
+		2134DF6C26BF24200051C6BC /* Array+Yoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF6626BF24200051C6BC /* Array+Yoco.swift */; };
+		2134DF6E26BF29F40051C6BC /* ItemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF6D26BF29F40051C6BC /* ItemCellTableViewCell.swift */; };
+		2134DF7026C02A610051C6BC /* UITableView+Yoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134DF6F26C02A610051C6BC /* UITableView+Yoco.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2134DF4126BF23930051C6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2134DF2226BF23910051C6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2134DF2926BF23910051C6BC;
+			remoteInfo = YocoLab;
+		};
+		2134DF4C26BF23930051C6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2134DF2226BF23910051C6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2134DF2926BF23910051C6BC;
+			remoteInfo = YocoLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2134DF2A26BF23910051C6BC /* YocoLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YocoLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134DF2D26BF23910051C6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2134DF2F26BF23910051C6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2134DF3126BF23910051C6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2134DF3426BF23910051C6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2134DF3626BF23930051C6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2134DF3926BF23930051C6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2134DF3B26BF23930051C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2134DF4026BF23930051C6BC /* YocoLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YocoLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134DF4426BF23930051C6BC /* YocoLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YocoLabTests.swift; sourceTree = "<group>"; };
+		2134DF4626BF23930051C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2134DF4B26BF23930051C6BC /* YocoLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YocoLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134DF4F26BF23930051C6BC /* YocoLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YocoLabUITests.swift; sourceTree = "<group>"; };
+		2134DF5126BF23930051C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2134DF5E26BF241F0051C6BC /* KeyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
+		2134DF6326BF241F0051C6BC /* CashRegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashRegisterViewModel.swift; sourceTree = "<group>"; };
+		2134DF6526BF241F0051C6BC /* UIColor+Yoco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Yoco.swift"; sourceTree = "<group>"; };
+		2134DF6626BF24200051C6BC /* Array+Yoco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Yoco.swift"; sourceTree = "<group>"; };
+		2134DF6D26BF29F40051C6BC /* ItemCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellTableViewCell.swift; sourceTree = "<group>"; };
+		2134DF6F26C02A610051C6BC /* UITableView+Yoco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Yoco.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2134DF2726BF23910051C6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134DF3D26BF23930051C6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134DF4826BF23930051C6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2134DF2126BF23910051C6BC = {
+			isa = PBXGroup;
+			children = (
+				2134DF2C26BF23910051C6BC /* YocoLab */,
+				2134DF4326BF23930051C6BC /* YocoLabTests */,
+				2134DF4E26BF23930051C6BC /* YocoLabUITests */,
+				2134DF2B26BF23910051C6BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2134DF2B26BF23910051C6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF2A26BF23910051C6BC /* YocoLab.app */,
+				2134DF4026BF23930051C6BC /* YocoLabTests.xctest */,
+				2134DF4B26BF23930051C6BC /* YocoLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2134DF2C26BF23910051C6BC /* YocoLab */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF2D26BF23910051C6BC /* AppDelegate.swift */,
+				2134DF2F26BF23910051C6BC /* SceneDelegate.swift */,
+				2134DF3126BF23910051C6BC /* ViewController.swift */,
+				2134DF3326BF23910051C6BC /* Main.storyboard */,
+				2134DF3826BF23930051C6BC /* LaunchScreen.storyboard */,
+				2134DF5D26BF241F0051C6BC /* Cells */,
+				2134DF6426BF241F0051C6BC /* Utility */,
+				2134DF6226BF241F0051C6BC /* ViewModel */,
+				2134DF3626BF23930051C6BC /* Assets.xcassets */,
+				2134DF3B26BF23930051C6BC /* Info.plist */,
+			);
+			path = YocoLab;
+			sourceTree = "<group>";
+		};
+		2134DF4326BF23930051C6BC /* YocoLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF4426BF23930051C6BC /* YocoLabTests.swift */,
+				2134DF4626BF23930051C6BC /* Info.plist */,
+			);
+			path = YocoLabTests;
+			sourceTree = "<group>";
+		};
+		2134DF4E26BF23930051C6BC /* YocoLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF4F26BF23930051C6BC /* YocoLabUITests.swift */,
+				2134DF5126BF23930051C6BC /* Info.plist */,
+			);
+			path = YocoLabUITests;
+			sourceTree = "<group>";
+		};
+		2134DF5D26BF241F0051C6BC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF5E26BF241F0051C6BC /* KeyCell.swift */,
+				2134DF6D26BF29F40051C6BC /* ItemCellTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2134DF6226BF241F0051C6BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF6326BF241F0051C6BC /* CashRegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2134DF6426BF241F0051C6BC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2134DF6526BF241F0051C6BC /* UIColor+Yoco.swift */,
+				2134DF6626BF24200051C6BC /* Array+Yoco.swift */,
+				2134DF6F26C02A610051C6BC /* UITableView+Yoco.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2134DF2926BF23910051C6BC /* YocoLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2134DF5426BF23930051C6BC /* Build configuration list for PBXNativeTarget "YocoLab" */;
+			buildPhases = (
+				2134DF2626BF23910051C6BC /* Sources */,
+				2134DF2726BF23910051C6BC /* Frameworks */,
+				2134DF2826BF23910051C6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YocoLab;
+			productName = YocoLab;
+			productReference = 2134DF2A26BF23910051C6BC /* YocoLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2134DF3F26BF23930051C6BC /* YocoLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2134DF5726BF23930051C6BC /* Build configuration list for PBXNativeTarget "YocoLabTests" */;
+			buildPhases = (
+				2134DF3C26BF23930051C6BC /* Sources */,
+				2134DF3D26BF23930051C6BC /* Frameworks */,
+				2134DF3E26BF23930051C6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2134DF4226BF23930051C6BC /* PBXTargetDependency */,
+			);
+			name = YocoLabTests;
+			productName = YocoLabTests;
+			productReference = 2134DF4026BF23930051C6BC /* YocoLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2134DF4A26BF23930051C6BC /* YocoLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2134DF5A26BF23930051C6BC /* Build configuration list for PBXNativeTarget "YocoLabUITests" */;
+			buildPhases = (
+				2134DF4726BF23930051C6BC /* Sources */,
+				2134DF4826BF23930051C6BC /* Frameworks */,
+				2134DF4926BF23930051C6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2134DF4D26BF23930051C6BC /* PBXTargetDependency */,
+			);
+			name = YocoLabUITests;
+			productName = YocoLabUITests;
+			productReference = 2134DF4B26BF23930051C6BC /* YocoLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2134DF2226BF23910051C6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2134DF2926BF23910051C6BC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2134DF3F26BF23930051C6BC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2134DF2926BF23910051C6BC;
+					};
+					2134DF4A26BF23930051C6BC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2134DF2926BF23910051C6BC;
+					};
+				};
+			};
+			buildConfigurationList = 2134DF2526BF23910051C6BC /* Build configuration list for PBXProject "YocoLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2134DF2126BF23910051C6BC;
+			productRefGroup = 2134DF2B26BF23910051C6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2134DF2926BF23910051C6BC /* YocoLab */,
+				2134DF3F26BF23930051C6BC /* YocoLabTests */,
+				2134DF4A26BF23930051C6BC /* YocoLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2134DF2826BF23910051C6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134DF3A26BF23930051C6BC /* LaunchScreen.storyboard in Resources */,
+				2134DF3726BF23930051C6BC /* Assets.xcassets in Resources */,
+				2134DF3526BF23910051C6BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134DF3E26BF23930051C6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134DF4926BF23930051C6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2134DF2626BF23910051C6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134DF6A26BF24200051C6BC /* CashRegisterViewModel.swift in Sources */,
+				2134DF7026C02A610051C6BC /* UITableView+Yoco.swift in Sources */,
+				2134DF3226BF23910051C6BC /* ViewController.swift in Sources */,
+				2134DF6E26BF29F40051C6BC /* ItemCellTableViewCell.swift in Sources */,
+				2134DF6726BF24200051C6BC /* KeyCell.swift in Sources */,
+				2134DF6C26BF24200051C6BC /* Array+Yoco.swift in Sources */,
+				2134DF2E26BF23910051C6BC /* AppDelegate.swift in Sources */,
+				2134DF3026BF23910051C6BC /* SceneDelegate.swift in Sources */,
+				2134DF6B26BF24200051C6BC /* UIColor+Yoco.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134DF3C26BF23930051C6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134DF4526BF23930051C6BC /* YocoLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134DF4726BF23930051C6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2134DF5026BF23930051C6BC /* YocoLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2134DF4226BF23930051C6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2134DF2926BF23910051C6BC /* YocoLab */;
+			targetProxy = 2134DF4126BF23930051C6BC /* PBXContainerItemProxy */;
+		};
+		2134DF4D26BF23930051C6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2134DF2926BF23910051C6BC /* YocoLab */;
+			targetProxy = 2134DF4C26BF23930051C6BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2134DF3326BF23910051C6BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2134DF3426BF23910051C6BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2134DF3826BF23930051C6BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2134DF3926BF23930051C6BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2134DF5226BF23930051C6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2134DF5326BF23930051C6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2134DF5526BF23930051C6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHHBM28Y33;
+				INFOPLIST_FILE = YocoLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.YocoLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2134DF5626BF23930051C6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHHBM28Y33;
+				INFOPLIST_FILE = YocoLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.YocoLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2134DF5826BF23930051C6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHHBM28Y33;
+				INFOPLIST_FILE = YocoLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.YocoLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YocoLab.app/YocoLab";
+			};
+			name = Debug;
+		};
+		2134DF5926BF23930051C6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHHBM28Y33;
+				INFOPLIST_FILE = YocoLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.YocoLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YocoLab.app/YocoLab";
+			};
+			name = Release;
+		};
+		2134DF5B26BF23930051C6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHHBM28Y33;
+				INFOPLIST_FILE = YocoLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.YocoLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YocoLab;
+			};
+			name = Debug;
+		};
+		2134DF5C26BF23930051C6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHHBM28Y33;
+				INFOPLIST_FILE = YocoLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.YocoLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YocoLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2134DF2526BF23910051C6BC /* Build configuration list for PBXProject "YocoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134DF5226BF23930051C6BC /* Debug */,
+				2134DF5326BF23930051C6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2134DF5426BF23930051C6BC /* Build configuration list for PBXNativeTarget "YocoLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134DF5526BF23930051C6BC /* Debug */,
+				2134DF5626BF23930051C6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2134DF5726BF23930051C6BC /* Build configuration list for PBXNativeTarget "YocoLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134DF5826BF23930051C6BC /* Debug */,
+				2134DF5926BF23930051C6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2134DF5A26BF23930051C6BC /* Build configuration list for PBXNativeTarget "YocoLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2134DF5B26BF23930051C6BC /* Debug */,
+				2134DF5C26BF23930051C6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2134DF2226BF23910051C6BC /* Project object */;
+}
